@@ -1,7 +1,8 @@
 # Cypress-Api-Automation
 The task has been done using cypress framework
 
-Cypress is a node.js framework
+Cypress is a node.js framework 
+https://www.cypress.io/
 
 **How to run?**
 clone the project and install all the dependencies by using below commands
