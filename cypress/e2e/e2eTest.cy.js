@@ -16,6 +16,8 @@ describe('API automation in cypress ' ,()=>{
   .then((response) => {
     cy.log(JSON.stringify(response));
     expect(response.status).to.equal(200);
+    expect(responseBody).to.have.property('timestamp');
+
   })
 
 } )
